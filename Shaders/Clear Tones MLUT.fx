@@ -14,7 +14,7 @@
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #ifndef fLUT_TextureName
-	#define fLUT_TextureName "Clear Tones LUT.png"
+	#define fLUT_TextureName "Clear Tones MLUT.png"
 #endif
 #ifndef fLUT_TileSizeXY
 	#define fLUT_TileSizeXY 32

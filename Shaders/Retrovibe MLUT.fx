@@ -14,7 +14,7 @@
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #ifndef fLUT_TextureName
-	#define fLUT_TextureName "Retrovibe LUT.png"
+	#define fLUT_TextureName "Retrovibe MLUT.png"
 #endif
 #ifndef fLUT_TileSizeXY
 	#define fLUT_TileSizeXY 32

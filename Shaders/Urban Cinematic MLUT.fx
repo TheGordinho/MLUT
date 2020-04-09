@@ -14,7 +14,7 @@
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #ifndef fLUT_TextureName
-	#define fLUT_TextureName "Urban Cinematic LUT.png"
+	#define fLUT_TextureName "Urban Cinematic MLUT.png"
 #endif
 #ifndef fLUT_TileSizeXY
 	#define fLUT_TileSizeXY 64
