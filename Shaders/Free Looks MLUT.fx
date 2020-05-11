@@ -15,14 +15,18 @@
 
 namespace MLUT_MultiLUT_Free_Looks
 {
+#ifndef fLUT_TextureName
 	#define fLUT_TextureName "Free Looks MLUT.png"
-
+#endif
+#ifndef fLUT_TileSizeXY
 	#define fLUT_TileSizeXY 64
-
+#endif
+#ifndef fLUT_TileAmount
 	#define fLUT_TileAmount 64
-
+#endif
+#ifndef fLUT_LutAmount
 	#define fLUT_LutAmount 7
-
+#endif
 
 #include "ReShade.fxh"
 
@@ -50,8 +54,8 @@ namespace MLUT_MultiLUT_Free_Looks
     //
     //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-    texture texMultiLUT_MLUT_pd80_Free_Look < source = fLUT_TextureName; > { Width = fLUT_TileSizeXY * fLUT_TileAmount; Height = fLUT_TileSizeXY * fLUT_LutAmount; Format = RGBA8; };
-    sampler	SamplerMultiLUT { Texture = texMultiLUT_MLUT_pd80_Free_Look; };
+    texture texMultiLUT_MLUT_pd80_Free_Looks < source = fLUT_TextureName; > { Width = fLUT_TileSizeXY * fLUT_TileAmount; Height = fLUT_TileSizeXY * fLUT_LutAmount; Format = RGBA8; };
+    sampler	SamplerMultiLUT { Texture = texMultiLUT_MLUT_pd80_Free_Looks; };
 
     //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     //

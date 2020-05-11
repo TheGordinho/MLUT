@@ -27,6 +27,7 @@
 	#define fLUT_LutAmount 62
 #endif
 
+
 #include "ReShade.fxh"
 
 namespace MLUT_MultiLUT_Various
@@ -35,13 +36,14 @@ namespace MLUT_MultiLUT_Various
     //
     //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-	  uniform int fLUT_LutSelector < 
+
+	uniform int fLUT_LutSelector < 
 		ui_type = "combo";
-		ui_min= 0; ui_max=16;
-		ui_items="60_s\060_s_faded\060_s_faded_alt\0alien_green\0black_and_white\0bleach_bypass\0blue_mono\0color_rich\0expired_fade\0expired_polaroid\0extreme\0fade\0faded\0faded_alt\0faded_analog\0faded_extreme\0faded_vivid\0faux_infrared\0golden\0golden_bright\0golden_fade\0golden_mono\0golden_vibrant\0green_mono\0hong_kong\0light_blown\0lomo\0mono_tinted\0muted_fade\0mute_shift\0natural_vivid\0nostalgic\0orange_tone\0pink_fade\0purple\0retro\0rotate_muted\0rotate_vibrant\0smooth_cromeish\0smooth_fade\0soft_fade\0solarized_color\0solarized_color2\0summer\0summer_alt\0sunny\0sunny_alt\0sunny_rich\0sunny_warm\0super_warm\0super_warm_rich\0sutro_fx\0vibrant\0vibrant_alien\0vibrant_contrast\0vibrant_cromeish\0vintage\0vintage_alt\0vintage_brighter\0warm\0warm_highlight\0warm_yellow\0"; 
+		ui_min= 0; ui_max=62;
+		ui_items=" 60 s\0 60 s faded\0 60 s faded alt\0 alien green\0 black and white\0 bleach bypass\0 blue mono\0 color rich\0 expired fade\0 expired polaroid\0 extreme\0 fade\0 faded\0 faded alt\0 faded analog\0 faded extreme\0 faded vivid\0 faux infrared\0 golden\0 golden bright\0 golden fade\0 golden mono\0 golden vibrant\0 green mono\0 hong kong\0 light blown\0 list.bat list.txt lomo\0 LutMate.bat LutMate.exe mono tinted\0 muted fade\0 mute shift\0 natural vivid\0 nostalgic\0 orange tone\0 pink fade\0 purple\0 retro\0 rotate muted\0 rotate vibrant\0 smooth cromeish\0 smooth fade\0 soft fade\0 solarized color\0 solarized color2\0 summer\0 summer alt\0 sunny\0 sunny alt\0 sunny rich\0 sunny warm\0 super warm\0 super warm rich\0 sutro fx\0 vibrant\0 vibrant alien\0 vibrant contrast\0 vibrant cromeish\0 vintage\0 vintage alt\0 vintage brighter\0 warm\0 warm highlight\0 warm yellow\0";
 		ui_label = "The LUT to use";
 		
-	> = 0;
+		> = 0;
 
     uniform float fLUT_Intensity <
         ui_type = "slider";
@@ -54,8 +56,8 @@ namespace MLUT_MultiLUT_Various
     //
     //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-    texture texMultiLUT_MLUT_pd80_Various < source = fLUT_TextureName; > { Width = fLUT_TileSizeXY * fLUT_TileAmount; Height = fLUT_TileSizeXY * fLUT_LutAmount; Format = RGBA8; };
-    sampler	SamplerMultiLUT { Texture = texMultiLUT_MLUT_pd80_Various; };
+    texture texMultiLUT_MLUT_Various < source = fLUT_TextureName; > { Width = fLUT_TileSizeXY * fLUT_TileAmount; Height = fLUT_TileSizeXY * fLUT_LutAmount; Format = RGBA8; };
+    sampler	SamplerMultiLUT { Texture = texMultiLUT_MLUT_Various; };
 
     //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     //
