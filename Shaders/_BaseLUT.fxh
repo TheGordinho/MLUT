@@ -78,7 +78,7 @@ texture MultiLutTex <source = fLUT_TextureName;>
 	Height = fLUT_TileSizeXY * fLUT_LutAmount;
 };
 
-sampler	MultiLUT
+sampler MultiLUT
 {
 	Texture = MultiLutTex;
 };
