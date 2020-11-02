@@ -107,7 +107,7 @@ float4 MainPS(
 	lut_uv.x += (lut_uv.z - lerpfact) * lut_ps.y;
 
 	float3 lutcolor = lerp(
-		tex2D(MultiLUT, lut_uv).xyz,
+		tex2D(MultiLUT,lut_uv.xy).xyz,
 		tex2D(
 			MultiLUT,
 			float2(lut_uv.x + lut_ps.y, lut_uv.y)).xyz,
