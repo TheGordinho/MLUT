@@ -7,9 +7,10 @@
 // by Otis / Infuse Project.
 // Based on Marty's LUT shader 1.0 for ReShade 3.0
 // Copyright © 2008-2016 Marty McFly
-// Converted by TheGordinho
+// Converted and Modified by TheGordinho
 // Thanks to kingeric1992 and Matsilagi for the tools
 // Refactored by luluco250
+// 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //#region Preprocessor
@@ -56,17 +57,22 @@ uniform int fLUT_LutSelector
 	ui_items = fLUT_LutList;
 > = 0;
 
-uniform float fLUT_Intensity
-<
+uniform float fLUT_AmountChroma <
 	__UNIFORM_SLIDER_FLOAT1
+	//ui_type = "drag";
+	ui_min = 0.00; ui_max = 1.00;
+	ui_label = "LUT chroma amount";
+	ui_tooltip = "Intensity of color/chroma change of the LUT.";
+> = 1.00;
 
-	ui_label = "LUT Intensity";
-	ui_tooltip =
-		"Intensity of LUT effect.\n"
-		"\nDefault: 1.0";
-	ui_min = 0.0;
-	ui_max = 1.0;
-> = 1.0;
+uniform float fLUT_AmountLuma <
+	__UNIFORM_SLIDER_FLOAT1
+	//ui_type = "drag";
+	ui_min = 0.00; ui_max = 1.00;
+	ui_label = "LUT luma amount";
+	ui_tooltip = "Intensity of luma change of the LUT.";
+
+> = 1.00;
 
 //#endregion
 
@@ -106,14 +112,18 @@ float4 MainPS(
 	float lerpfact = frac(lut_uv.z);
 	lut_uv.x += (lut_uv.z - lerpfact) * lut_ps.y;
 
-	float3 lutcolor = lerp(
-		tex2D(MultiLUT,lut_uv.xy).xyz,
-		tex2D(
+	float3 lutcolor = (float3)lerp(
+		(float3)tex2D(MultiLUT, lut_uv.xy).xyz,
+		(float3)tex2D(
 			MultiLUT,
 			float2(lut_uv.x + lut_ps.y, lut_uv.y)).xyz,
 		lerpfact);
 
-	color.rgb = lerp(color.rgb, lutcolor, fLUT_Intensity);
+
+	color.xyz = lerp(saturate(normalize(color.xyz)), saturate(normalize(lutcolor.xyz)), fLUT_AmountChroma)* 
+	            lerp(length(color.xyz),    length(lutcolor.xyz),    fLUT_AmountLuma);
+
+	
 	return color;
 }
 
