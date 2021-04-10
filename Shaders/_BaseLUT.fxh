@@ -10,10 +10,7 @@
 // Converted and Modified by TheGordinho
 // Thanks to kingeric1992 and Matsilagi for the tools
 // Refactored by luluco250
-// 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-//#region Preprocessor
 
 #include "ReShade.fxh"
 #include "ReShadeUI.fxh"
@@ -42,12 +39,8 @@
     #error "LUT amount not defined"
 #endif
 
-//#endregion
-
 namespace fLUT_Name
 {
-
-//#region Uniforms
 
 uniform int fLUT_LutSelector
 <
@@ -57,9 +50,15 @@ uniform int fLUT_LutSelector
 	ui_items = fLUT_LutList;
 > = 0;
 
+uniform float GlobalControl <
+	__UNIFORM_SLIDER_FLOAT1
+	ui_min = 0.00; ui_max = 1.00;
+	ui_label = "Global Control";
+	ui_tooltip = "Controls how much of the Lut is applyed.";
+> = 1.00;
+
 uniform float fLUT_AmountChroma <
 	__UNIFORM_SLIDER_FLOAT1
-	//ui_type = "drag";
 	ui_min = 0.00; ui_max = 1.00;
 	ui_label = "LUT chroma amount";
 	ui_tooltip = "Intensity of color/chroma change of the LUT.";
@@ -67,16 +66,11 @@ uniform float fLUT_AmountChroma <
 
 uniform float fLUT_AmountLuma <
 	__UNIFORM_SLIDER_FLOAT1
-	//ui_type = "drag";
 	ui_min = 0.00; ui_max = 1.00;
 	ui_label = "LUT luma amount";
 	ui_tooltip = "Intensity of luma change of the LUT.";
 
 > = 1.00;
-
-//#endregion
-
-//#region Textures
 
 texture MultiLutTex <source = fLUT_TextureName;>
 {
@@ -89,16 +83,14 @@ sampler MultiLUT
 	Texture = MultiLutTex;
 };
 
-//#endregion
-
-//#region Shaders
+float Dot(float3 D) { return dot(D,float3(0.2125, 0.7154, 0.0721)); }; 
 
 float4 MainPS(
 	float4 pos : SV_POSITION,
 	float2 uv : TEXCOORD) : SV_TARGET
 {
 	float4 color = tex2D(ReShade::BackBuffer, uv);
-
+	color.a = Dot(color.rgb);
 	float2 lut_ps = rcp(fLUT_TileSizeXY);
 	lut_ps.x /= fLUT_TileAmount;
 
@@ -112,24 +104,21 @@ float4 MainPS(
 	float lerpfact = frac(lut_uv.z);
 	lut_uv.x += (lut_uv.z - lerpfact) * lut_ps.y;
 
-	float3 lutcolor = (float3)lerp(
-		(float3)tex2D(MultiLUT, lut_uv.xy).xyz,
-		(float3)tex2D(
+	float4 lutcolor = (float4)lerp(
+		(float4)tex2D(MultiLUT, lut_uv.xy),
+		(float4)tex2D(
 			MultiLUT,
-			float2(lut_uv.x + lut_ps.y, lut_uv.y)).xyz,
+			float2(lut_uv.x + lut_ps.y, lut_uv.y)),
 		lerpfact);
-
-
-	color.xyz = lerp(saturate(normalize(color.xyz)), saturate(normalize(lutcolor.xyz)), fLUT_AmountChroma)* 
-	            lerp(length(color.xyz),    length(lutcolor.xyz),    fLUT_AmountLuma);
-
-	
+		lutcolor.a = Dot(lutcolor.rgb);
+		float3 storecolor = color.rgb ; 
+		
+    color.rgb    = lerp(lutcolor.rgb, color.rgb, 1 - fLUT_AmountChroma);
+    color.rgb    -= Dot(color.rgb);    
+    color.rgb    += lerp(lutcolor.a, color.a, 1 - fLUT_AmountLuma);
+	color.rgb	 = lerp(color.rgb, storecolor, 1 -  GlobalControl); 
 	return color;
 }
-
-//#endregion
-
-//#region Technique
 
 technique fLUT_Name
 {
@@ -139,7 +128,4 @@ technique fLUT_Name
 		PixelShader = MainPS;
 	}
 }
-
-//#endregion
-
 }
