@@ -3,5 +3,5 @@
 #define fLUT_TextureName "Sunflower Mood MLUT.png"
 #define fLUT_TileSizeXY 64
 #define fLUT_TileAmount 64
-#define fLUT_LutAmount 10
+#define fLUT_LutAmount 5
 #include "_BaseLUT.fxh"
