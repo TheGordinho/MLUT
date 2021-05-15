@@ -33,6 +33,6 @@ Change the load order of the shader so you get diferent results.
 Place the luts sandwiched between the 2 PCGI shaders to change the GI colors
 
 ### **If you enjoy these LUTs, consider supporting my efforts**
-[<img src="https://cdn.discordapp.com/attachments/817234274277261315/842937131809898506/A11EB3cwe8riAAAAAElFTkSuQmCC.png">](https://ko-fi.com/thegordinho)
+[<img src="https://cdn.discordapp.com/attachments/817234274277261315/842943204310515722/525-5258123_support-the-blog-png-logo-ko-fi-transparent.png" width="25%" height="25%">](https://ko-fi.com/thegordinho)
 
 
