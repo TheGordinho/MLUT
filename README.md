@@ -1,5 +1,5 @@
 # A repository with thousands of pre defined color presets for ReShade 
-**What is it?** <br />
+### **What is it?** <br />
 
 LUTs (Color Lookup Table) is a baked color preset that can be used on any game that ReShade can be installed to. <br />
 
