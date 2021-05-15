@@ -5,7 +5,7 @@ LUTs (Color Lookup Table) is a baked color preset that can be used on any game t
 
 ### **What do I need to get it working?** <br />
 
- [ReShade](reshade.me)
+ [ReShade](https://reshade.me)
 
 The <strong>_BaseLUT.fxh</strong>, <strong>ReShade.fxh</strong> and <strong>ReShadeUI.fxh</strong> files that comes with this repository.
 
@@ -33,6 +33,6 @@ Change the load order of the shader so you get diferent results.
 Place the luts sandwiched between the 2 PCGI shaders to change the GI colors
 
 ### **If you enjoy these LUTs, consider supporting my efforts**
-[<img src="https://cdn.discordapp.com/attachments/817234274277261315/842937131809898506/A11EB3cwe8riAAAAAElFTkSuQmCC.png">](ko-fi.com/thegordinho)
+[<img src="https://cdn.discordapp.com/attachments/817234274277261315/842937131809898506/A11EB3cwe8riAAAAAElFTkSuQmCC.png">](https://ko-fi.com/thegordinho)
 
 
