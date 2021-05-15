@@ -30,9 +30,9 @@ You can mix and match as many luts as you want, but be aware that you will start
 
 Change the load order of the shader so you get diferent results.
 
-Place the luts sandwiched between the 2 PCGI shaders to change the GI colors
+Place the luts sandwiched between the 2 PCGI shaders to change the GI colors.
 
-### **If you enjoy these LUTs, consider supporting my efforts**
+### **If you enjoy these LUTs, consider supporting my efforts.**
 [<img src="https://cdn.discordapp.com/attachments/817234274277261315/842943204310515722/525-5258123_support-the-blog-png-logo-ko-fi-transparent.png" width="25%" height="25%">](https://ko-fi.com/thegordinho)
 
 
