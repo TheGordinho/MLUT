@@ -1,3 +1,6 @@
+
+
+
 # A repository with thousands of pre defined color presets for ReShade 
 ### **What is it?** <br />
 
@@ -7,7 +10,7 @@ LUTs (Color Lookup Table) is a baked color preset that can be used on any game t
 
  [ReShade](https://reshade.me)
 
-The <strong>_BaseLUT.fxh</strong>, <strong>ReShade.fxh</strong> and <strong>ReShadeUI.fxh</strong> files that comes with this repository.
+The <strong>_BaseLUT.fxh</strong>, <strong>ReShade.fxh</strong> and <strong>ReShadeUI.fxh</strong> files that come with this repository.
 
 The <strong>.fx</strong> and <strong>.png</strong> files with matching file names.
 
@@ -30,9 +33,20 @@ You can mix and match as many luts as you want, but be aware that you will start
 
 Change the load order of the shader so you get diferent results.
 
+https://user-images.githubusercontent.com/23023051/118404928-719f4d80-b64b-11eb-964d-09fa9b60fe8b.mp4
+
 Place the luts sandwiched between the 2 PCGI shaders to change the GI colors.
 
-### **If you enjoy these LUTs, consider supporting my efforts.**
-[<img src="https://cdn.discordapp.com/attachments/817234274277261315/842943204310515722/525-5258123_support-the-blog-png-logo-ko-fi-transparent.png" width="25%" height="25%">](https://ko-fi.com/thegordinho)
+https://user-images.githubusercontent.com/23023051/118405513-9cd76c00-b64e-11eb-915f-edffe52f1dae.mp4
+
+HUGE thanks to the [ReShade Discord Community](https://discord.gg/PrwndfH) for all the help and support, whitout you guys this wouldn't ever be possible.
+
+And thanks to the Framed community for all the kind words and feedback, check out their amazing shots oh the [Hall of Framed](https://framedsc.github.io/HallOfFramed/).
+
+<p align="center">:heart:</p>
+
+### **If you enjoy these LUTs, consider supporting my efforts.** 
+
+[<img src="https://cdn.discordapp.com/attachments/817234274277261315/842943204310515722/525-5258123_support-the-blog-png-logo-ko-fi-transparent.png" width="25%" height="25%">](https://ko-fi.com/thegordinho) 
 
 
