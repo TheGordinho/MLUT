@@ -41,7 +41,7 @@ https://user-images.githubusercontent.com/23023051/118405513-9cd76c00-b64e-11eb-
 
 HUGE thanks to the [ReShade Discord Community](https://discord.gg/PrwndfH) for all the help and support, whitout you guys this wouldn't ever be possible.
 
-And thanks to the Framed community for all the kind words and feedback, check out their amazing shots oh the [Hall of Framed](https://framedsc.github.io/HallOfFramed/).
+And thanks to the Framed community for all the kind words and feedback, check out their amazing shots on the [Hall of Framed](https://framedsc.github.io/HallOfFramed/).
 
 <p align="center">:heart:</p>
 
