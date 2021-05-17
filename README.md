@@ -45,8 +45,8 @@ And thanks to the Framed community for all the kind words and feedback, check ou
 
 <p align="center">:heart:</p>
 
-### **If you enjoy these LUTs, consider supporting my efforts.** 
+### **<div align="center">If you enjoy these LUTs, consider supporting my efforts.</div>** 
 
-[<img src="https://cdn.discordapp.com/attachments/817234274277261315/842943204310515722/525-5258123_support-the-blog-png-logo-ko-fi-transparent.png" width="25%" height="25%">](https://ko-fi.com/thegordinho) 
+[<div align="center"><img src="https://cdn.discordapp.com/attachments/817234274277261315/842943204310515722/525-5258123_support-the-blog-png-logo-ko-fi-transparent.png" width="25%" height="25%"></div>](https://ko-fi.com/thegordinho) 
 
 
