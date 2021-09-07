@@ -1,7 +1,7 @@
 #define fLUT_Name Bangset_Vintage_MLUT
-#define fLUT_LutList " vintage1\0 vintage10\0 vintage11\0 vintage12\0 vintage13\0 vintage14\0 vintage15\0 vintage16\0 vintage17\0 vintage18\0 vintage19\0 vintage2\0 vintage20\0 vintage21\0 vintage22\0 vintage23\0 vintage24\0 vintage25\0 vintage26\0 vintage27\0 vintage28\0 vintage29\0 vintage3\0 vintage30\0 vintage31\0 vintage32\0 vintage33\0 vintage34\0 vintage35\0 vintage36\0 vintage4\0 vintage5\0 vintage6\0 vintage7\0 vintage8\0 vintage9\0"
+#define fLUT_LutList " Vintage 01\0 Vintage 02\0 Vintage 03\0 Vintage 04\0 Vintage 05\0 Vintage 06\0 Vintage 07\0 Vintage 08\0 Vintage 09\0 Vintage 10\0 Vintage 11\0 Vintage 12\0 Vintage 13\0 Vintage 14\0 Vintage 15\0 Vintage 16\0 Vintage 17\0 Vintage 18\0 Vintage 19\0 Vintage 20\0 Vintage 21\0 Vintage 22\0 Vintage 23\0 Vintage 24\0 Vintage 25\0 Vintage 26\0 Vintage 27\0 Vintage 28\0 Vintage 29\0 Vintage 30\0 Vintage 31\0 Vintage 32\0 Vintage 33\0 Vintage 34\0 Vintage 35\0 Vintage 36\0 Vintage 37\0 Vintage 38\0 Vintage 39\0 Vintage 40\0 Vintage 41\0 Vintage 42\0 Vintage 43\0 Vintage 44\0 Vintage 45\0 Vintage 46\0 Vintage 47\0 Vintage 48\0 Vintage 49\0 Vintage 50\0 Vintage 51\0 Vintage 52\0 Vintage 53\0 Vintage 54\0 Vintage 55\0 Vintage 56\0 Vintage 57\0 Vintage 58\0 Vintage 59\0 Vintage 60\0 Vintage 61\0 Vintage 62\0 Vintage 63\0 Vintage 64\0 Vintage 65\0 Vintage 66\0 Vintage 67\0 Vintage 68\0 Vintage 69\0 Vintage 70\0"
 #define fLUT_TextureName "Bangset Vintage MLUT.png"
-#define fLUT_TileSizeXY 33
-#define fLUT_TileAmount 33
-#define fLUT_LutAmount 36
+#define fLUT_TileSizeXY 16
+#define fLUT_TileAmount 16
+#define fLUT_LutAmount 69
 #include "_BaseLUT.fxh"
