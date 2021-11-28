@@ -9,6 +9,7 @@
 // Copyright © 2008-2016 Marty McFly
 // Converted and Modified by TheGordinho
 // Thanks to kingeric1992 and Matsilagi for the tools
+// Thanks to etra0 for heling speed up the creation process
 // Refactored by luluco250
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
