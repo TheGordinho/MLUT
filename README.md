@@ -1,7 +1,7 @@
 
 
 
-### **<div align="center">If you enjoy these LUTs, consider supporting my efforts.</div>** 
+### **<div align="center">If you enjoy these LUTs, consider supporting my efforts buying me a coffee by clicking on the image below.</div>** 
 
 [<div align="center"><img src="https://cdn.discordapp.com/attachments/817234274277261315/842943204310515722/525-5258123_support-the-blog-png-logo-ko-fi-transparent.png" width="25%" height="25%"></div>](https://ko-fi.com/thegordinho)
 
