@@ -10,7 +10,7 @@ LUTs (Color Lookup Table) is a baked color preset that can be used on any game t
 
  [ReShade](https://reshade.me)
 
-The <strong>_BaseLUT.fxh</strong>, <strong>ReShade.fxh</strong> and <strong>ReShadeUI.fxh</strong> files that come with this repository.
+The <strong>_BaseLUT.fxh</strong> file that comes with this repository, <strong>ReShade.fxh</strong> and <strong>ReShadeUI.fxh</strong> files that come with the default reshade installation.
 
 The <strong>.fx</strong> and <strong>.png</strong> files with matching file names.
 
