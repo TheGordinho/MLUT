@@ -1,6 +1,12 @@
 
 
 
+### **<div align="center">If you enjoy these LUTs, consider supporting my efforts.</div>** 
+
+[<div align="center"><img src="https://cdn.discordapp.com/attachments/817234274277261315/842943204310515722/525-5258123_support-the-blog-png-logo-ko-fi-transparent.png" width="25%" height="25%"></div>](https://ko-fi.com/thegordinho)
+
+# <p align="center">:heart:</p>
+
 # A repository with thousands of pre defined color presets for ReShade 
 ### **What is it?** <br /> 
 
@@ -43,10 +49,6 @@ HUGE thanks to the [ReShade Discord Community](https://discord.gg/PrwndfH) for a
 
 And thanks to the Framed community for all the kind words and feedback, check out their amazing shots on the [Hall of Framed](https://framedsc.github.io/HallOfFramed/).
 
-<p align="center">:heart:</p>
-
-### **<div align="center">If you enjoy these LUTs, consider supporting my efforts.</div>** 
-
-[<div align="center"><img src="https://cdn.discordapp.com/attachments/817234274277261315/842943204310515722/525-5258123_support-the-blog-png-logo-ko-fi-transparent.png" width="25%" height="25%"></div>](https://ko-fi.com/thegordinho) 
+ 
 
 
