@@ -47,6 +47,10 @@ Place the luts sandwiched between the 2 PCGI shaders to change the GI colors.
 
 https://user-images.githubusercontent.com/23023051/118405513-9cd76c00-b64e-11eb-915f-edffe52f1dae.mp4
 
+Now you can use MLUT with depth and paint the sky all the color of the rainbow \o/
+
+https://user-images.githubusercontent.com/23023051/146495932-cdbec80d-e532-4300-9a88-323bf675bc10.mp4
+
 HUGE thanks to the [ReShade Discord Community](https://discord.gg/PrwndfH) for all the help and support, whitout you guys this wouldn't ever be possible.
 
 And thanks to the Framed community for all the kind words and feedback, check out their amazing shots on the [Hall of Framed](https://framedsc.github.io/HallOfFramed/).
