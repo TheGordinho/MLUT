@@ -52,6 +52,11 @@ https://user-images.githubusercontent.com/23023051/118405513-9cd76c00-b64e-11eb-
 
 https://user-images.githubusercontent.com/23023051/146495932-cdbec80d-e532-4300-9a88-323bf675bc10.mp4
 
+## Testing before downloading
+
+Thanks to Fraulk ([twitter](https://twitter.com/freaksboi) [github](https://github.com/Fraulk/vp-lut-tester))
+ you can  [test MLUT before downloading the entire repo](https://vp-lut-tester.netlify.app/).
+
 ## Acknowledgements
 
 HUGE thanks to the [ReShade Discord Community](https://discord.gg/PrwndfH) for all the help and support, whitout you guys this wouldn't ever be possible.
