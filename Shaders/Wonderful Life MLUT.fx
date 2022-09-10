@@ -1,0 +1,7 @@
+#define fLUT_Name Wonderful_Life_MLUT
+#define fLUT_LutList " Wonderful Life LUT #1\0 Wonderful Life LUT #10\0 Wonderful Life LUT #11\0 Wonderful Life LUT #12\0 Wonderful Life LUT #13\0 Wonderful Life LUT #14\0 Wonderful Life LUT #15\0 Wonderful Life LUT #16\0 Wonderful Life LUT #17\0 Wonderful Life LUT #18\0 Wonderful Life LUT #19\0 Wonderful Life LUT #2\0 Wonderful Life LUT #20\0 Wonderful Life LUT #21\0 Wonderful Life LUT #22\0 Wonderful Life LUT #23\0 Wonderful Life LUT #24\0 Wonderful Life LUT #25\0 Wonderful Life LUT #26\0 Wonderful Life LUT #27\0 Wonderful Life LUT #28\0 Wonderful Life LUT #29\0 Wonderful Life LUT #3\0 Wonderful Life LUT #30\0 Wonderful Life LUT #31\0 Wonderful Life LUT #32\0 Wonderful Life LUT #33\0 Wonderful Life LUT #34\0 Wonderful Life LUT #35\0 Wonderful Life LUT #36\0 Wonderful Life LUT #37\0 Wonderful Life LUT #38\0 Wonderful Life LUT #39\0 Wonderful Life LUT #4\0 Wonderful Life LUT #40\0 Wonderful Life LUT #41\0 Wonderful Life LUT #42\0 Wonderful Life LUT #43\0 Wonderful Life LUT #44\0 Wonderful Life LUT #45\0 Wonderful Life LUT #46\0 Wonderful Life LUT #47\0 Wonderful Life LUT #48\0 Wonderful Life LUT #49\0 Wonderful Life LUT #5\0 Wonderful Life LUT #50\0 Wonderful Life LUT #6\0 Wonderful Life LUT #7\0 Wonderful Life LUT #8\0 Wonderful Life LUT #9\0"
+#define fLUT_TextureName "Wonderful Life MLUT.png"
+#define fLUT_TileSizeXY 25
+#define fLUT_TileAmount 25
+#define fLUT_LutAmount 50
+#include "_BaseLUT.fxh"

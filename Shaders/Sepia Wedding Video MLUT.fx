@@ -1,0 +1,7 @@
+#define fLUT_Name Sepia_Wedding_Video_MLUT
+#define fLUT_LutList " 01-Sepia Wedding-Bride 01-LUTs Preset\0 02-Sepia Wedding-Bride 02-LUTs Preset\0 03-Sepia Wedding-Bride 03-LUTs Preset\0 04-Sepia Wedding-Bride 04-LUTs Preset\0 05-Sepia Wedding-Bride 05-LUTs Preset\0 06-Sepia Wedding-Romance 01-LUTs Preset\0 07-Sepia Wedding-Romance 02-LUTs Preset\0 08-Sepia Wedding-Romance 03-LUTs Preset\0 09-Sepia Wedding-Romance 04-LUTs Preset\0 10-Sepia Wedding-Romance 05-LUTs Preset\0 11-Sepia Wedding-Mystical 01-LUTs Preset\0 12-Sepia Wedding-Mystical 02-LUTs Preset\0 13-Sepia Wedding-Mystical 03-LUTs Preset\0 14-Sepia Wedding-Mystical 04-LUTs Preset\0 15-Sepia Wedding-Mystical 05-LUTs Preset\0 16-Sepia Wedding-Happy 01-LUTs Preset\0 17-Sepia Wedding-Happy 02-LUTs Preset\0 18-Sepia Wedding-Happy 03-LUTs Preset\0 19-Sepia Wedding-Happy 04-LUTs Preset\0 20-Sepia Wedding-Happy 05-LUTs Preset\0 21-Sepia Wedding-Autumn 01-LUTs Preset\0 22-Sepia Wedding-Autumn 02-LUTs Preset\0 23-Sepia Wedding-Autumn 03-LUTs Preset\0 24-Sepia Wedding-Autumn 04-LUTs Preset\0 25-Sepia Wedding-Autumn 05-LUTs Preset\0 26-Sepia Wedding-Summer 01-LUTs Preset\0 27-Sepia Wedding-Summer 02-LUTs Preset\0 28-Sepia Wedding-Summer 03-LUTs Preset\0 29-Sepia Wedding-Summer 04-LUTs Preset\0 30-Sepia Wedding-Summer 05-LUTs Preset\0"
+#define fLUT_TextureName "Sepia Wedding Video MLUT.png"
+#define fLUT_TileSizeXY 64
+#define fLUT_TileAmount 64
+#define fLUT_LutAmount 30
+#include "_BaseLUT.fxh"

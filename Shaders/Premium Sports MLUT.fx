@@ -1,0 +1,7 @@
+#define fLUT_Name Premium_Sports_MLUT
+#define fLUT_LutList " Premium Sports LUT #1\0 Premium Sports LUT #10\0 Premium Sports LUT #11\0 Premium Sports LUT #12\0 Premium Sports LUT #13\0 Premium Sports LUT #14\0 Premium Sports LUT #15\0 Premium Sports LUT #16\0 Premium Sports LUT #17\0 Premium Sports LUT #18\0 Premium Sports LUT #19\0 Premium Sports LUT #2\0 Premium Sports LUT #20\0 Premium Sports LUT #21\0 Premium Sports LUT #22\0 Premium Sports LUT #23\0 Premium Sports LUT #24\0 Premium Sports LUT #25\0 Premium Sports LUT #26\0 Premium Sports LUT #27\0 Premium Sports LUT #28\0 Premium Sports LUT #29\0 Premium Sports LUT #3\0 Premium Sports LUT #30\0 Premium Sports LUT #31\0 Premium Sports LUT #32\0 Premium Sports LUT #33\0 Premium Sports LUT #34\0 Premium Sports LUT #35\0 Premium Sports LUT #36\0 Premium Sports LUT #37\0 Premium Sports LUT #38\0 Premium Sports LUT #39\0 Premium Sports LUT #4\0 Premium Sports LUT #40\0 Premium Sports LUT #41\0 Premium Sports LUT #42\0 Premium Sports LUT #43\0 Premium Sports LUT #44\0 Premium Sports LUT #45\0 Premium Sports LUT #46\0 Premium Sports LUT #47\0 Premium Sports LUT #48\0 Premium Sports LUT #49\0 Premium Sports LUT #5\0 Premium Sports LUT #50\0 Premium Sports LUT #6\0 Premium Sports LUT #7\0 Premium Sports LUT #8\0 Premium Sports LUT #9\0"
+#define fLUT_TextureName "Premium Sports MLUT.png"
+#define fLUT_TileSizeXY 25
+#define fLUT_TileAmount 25
+#define fLUT_LutAmount 50
+#include "_BaseLUT.fxh"
