@@ -1,60 +1,64 @@
 
+<h1 align="center">
+    <br>
+    If you enjoy these LUTs, consider supporting my efforts buying me a coffee by clicking on the image below.
+    <br><br>
+        <a href="https://ko-fi.com/thegordinho">
+            <img src="https://user-images.githubusercontent.com/23023051/145260720-804dff82-add9-46bf-a28e-34513dca000f.png">
+        </a>
+    <br>
+    <a href="https://www.youtube.com/watch?v=EIyixC9NsLI">
+        :heart:
+    </a>
+</h1>
 
+# A repository with thousands of pre defined color presets for ReShade
 
-### **<div align="center">If you enjoy these LUTs, consider supporting my efforts buying me a coffee by clicking on the image below.</div>** 
+## **What is a LUT?**
 
-[<div align="center">![m'luty](https://user-images.githubusercontent.com/23023051/145260720-804dff82-add9-46bf-a28e-34513dca000f.png)</div>](https://ko-fi.com/thegordinho)
+LUTs (Color Lookup Table) are baked color presets you can use on any game you can install ReShade to.
 
+## **What do I need to get it working?**
 
++ [ReShade](https://reshade.me)
++ The **_BaseLUT.fxh** file that comes with this repository
++ Files that come with the default reshade installation.
+  + **ReShade.fxh**
+  + **ReShadeUI.fxh**
++ The **.fx** and **.png** files with matching file names.
 
-# [<p align="center">:heart:</p>](https://www.youtube.com/watch?v=EIyixC9NsLI)
+## **Installation**
 
-# A repository with thousands of pre defined color presets for ReShade 
-### **What is it?** <br /> 
-
-LUTs (Color Lookup Table) is a baked color preset that can be used on any game that ReShade can be installed to. <br />
-
-### **What do I need to get it working?** <br />
-
- [ReShade](https://reshade.me)
-
-The <strong>_BaseLUT.fxh</strong> file that comes with this repository, <strong>ReShade.fxh</strong> and <strong>ReShadeUI.fxh</strong> files that come with the default reshade installation.
-
-The <strong>.fx</strong> and <strong>.png</strong> files with matching file names.
-
-### **Installation** 
-
-[Download](https://github.com/TheGordinho/MLUT/archive/refs/heads/master.zip) the repository.
-
-Move the <strong>.fx</strong> files that you want (you don't need them all, just the ones you want) to the Shaders folder inside your reshade install folder.
-
-Move the matching <strong>.png</strong> files to the Textures folder inside your reshade install folder.
-
-Done! <br />
+1. [Download](https://github.com/TheGordinho/MLUT/archive/refs/heads/master.zip) the repository.
+2. Move the **.fx** files that you want (you don't need them all, just the ones you want) to the Shaders folder inside your reshade install folder.
+3. Move the matching **.png** files to the Textures folder inside your reshade install folder.
+4. Done!
 
 https://user-images.githubusercontent.com/23023051/118344702-16177780-b506-11eb-8b80-907017128b5b.mp4
 
-
-### **Tips and Tricks**
+## **Tips and Tricks**
 
 You can mix and match as many luts as you want, but be aware that you will start to see heavy color banding with 2 or more LUTs active at the same time.
 
-Change the load order of the shader so you get diferent results.
+> Change the load order of the shader so you get diferent results.
 
 https://user-images.githubusercontent.com/23023051/118404928-719f4d80-b64b-11eb-964d-09fa9b60fe8b.mp4
 
-Place the luts sandwiched between the 2 PCGI shaders to change the GI colors.
+> Place the luts sandwiched between the 2 PCGI shaders to change the GI colors.
 
 https://user-images.githubusercontent.com/23023051/118405513-9cd76c00-b64e-11eb-915f-edffe52f1dae.mp4
 
-Now you can use MLUT with depth and paint the sky all the color of the rainbow \o/
+> Now you can use MLUT with depth and paint the sky all the color of the rainbow \o/
 
 https://user-images.githubusercontent.com/23023051/146495932-cdbec80d-e532-4300-9a88-323bf675bc10.mp4
+
+## Testing before downloading
+
+Thanks to Fraulk ([twitter](https://twitter.com/freaksboi) [github](https://github.com/Fraulk/vp-lut-tester))
+ you can  [test MLUT before downloading the entire repo](https://vp-lut-tester.netlify.app/).
+
+## Acknowledgements
 
 HUGE thanks to the [ReShade Discord Community](https://discord.gg/PrwndfH) for all the help and support, whitout you guys this wouldn't ever be possible.
 
 And thanks to the Framed community for all the kind words and feedback, check out their amazing shots on the [Hall of Framed](https://framedsc.github.io/HallOfFramed/).
-
- 
-
-

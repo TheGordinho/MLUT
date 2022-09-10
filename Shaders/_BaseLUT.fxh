@@ -4,13 +4,13 @@
 // ReShade effect file
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Multi-LUT shader, using a texture atlas with multiple LUTs
-// by Otis / Infuse Project.
-// Based on Marty's LUT shader 1.0 for ReShade 3.0
-// Copyright © 2008-2016 Marty McFly
+// by Otis / Infuse Project. (https://github.com/FransBouma)
+// Based on Marty's LUT shader 1.0 for ReShade 3.0 (https://github.com/martymcmodding)
+// Thanks to kingeric1992 and Matsilagi for the tools (https://github.com/kingeric1992) (https://github.com/Matsilagi)
+// Thanks to luluco250 for refactoring the code (https://github.com/luluco250)
+// BlueSkyDefender for tweaking the shader every once in a while (https://github.com/BlueSkyDefender) 
+// Thanks to etra0 (https://github.com/etra0) for helping speed up the creation process
 // Converted and Modified by TheGordinho
-// Thanks to kingeric1992 and Matsilagi for the tools
-// Thanks to etra0 for helping speed up the creation process
-// Refactored by luluco250
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #include "ReShade.fxh"
