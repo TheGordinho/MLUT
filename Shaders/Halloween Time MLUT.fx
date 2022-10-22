@@ -1,0 +1,7 @@
+#define fLUT_Name Halloween_Time_MLUT
+#define fLUT_LutList " Halloween Time LUT #1\0 Halloween Time LUT #10\0 Halloween Time LUT #11\0 Halloween Time LUT #12\0 Halloween Time LUT #13\0 Halloween Time LUT #14\0 Halloween Time LUT #15\0 Halloween Time LUT #16\0 Halloween Time LUT #17\0 Halloween Time LUT #18\0 Halloween Time LUT #19\0 Halloween Time LUT #2\0 Halloween Time LUT #20\0 Halloween Time LUT #21\0 Halloween Time LUT #22\0 Halloween Time LUT #23\0 Halloween Time LUT #24\0 Halloween Time LUT #25\0 Halloween Time LUT #26\0 Halloween Time LUT #27\0 Halloween Time LUT #28\0 Halloween Time LUT #29\0 Halloween Time LUT #3\0 Halloween Time LUT #30\0 Halloween Time LUT #31\0 Halloween Time LUT #32\0 Halloween Time LUT #33\0 Halloween Time LUT #34\0 Halloween Time LUT #35\0 Halloween Time LUT #36\0 Halloween Time LUT #37\0 Halloween Time LUT #38\0 Halloween Time LUT #39\0 Halloween Time LUT #4\0 Halloween Time LUT #40\0 Halloween Time LUT #41\0 Halloween Time LUT #42\0 Halloween Time LUT #43\0 Halloween Time LUT #44\0 Halloween Time LUT #45\0 Halloween Time LUT #46\0 Halloween Time LUT #47\0 Halloween Time LUT #48\0 Halloween Time LUT #49\0 Halloween Time LUT #5\0 Halloween Time LUT #50\0 Halloween Time LUT #6\0 Halloween Time LUT #7\0 Halloween Time LUT #8\0 Halloween Time LUT #9\0"
+#define fLUT_TextureName "Halloween Time MLUT.png"
+#define fLUT_TileSizeXY 25
+#define fLUT_TileAmount 25
+#define fLUT_LutAmount 50
+#include "_BaseLUT.fxh"

@@ -1,0 +1,7 @@
+#define fLUT_Name Gothic_Halloween_MLUT
+#define fLUT_LutList " Gothic Halloween LUT #1\0 Gothic Halloween LUT #10\0 Gothic Halloween LUT #11\0 Gothic Halloween LUT #12\0 Gothic Halloween LUT #13\0 Gothic Halloween LUT #14\0 Gothic Halloween LUT #15\0 Gothic Halloween LUT #16\0 Gothic Halloween LUT #17\0 Gothic Halloween LUT #18\0 Gothic Halloween LUT #19\0 Gothic Halloween LUT #2\0 Gothic Halloween LUT #20\0 Gothic Halloween LUT #21\0 Gothic Halloween LUT #22\0 Gothic Halloween LUT #23\0 Gothic Halloween LUT #24\0 Gothic Halloween LUT #25\0 Gothic Halloween LUT #26\0 Gothic Halloween LUT #27\0 Gothic Halloween LUT #28\0 Gothic Halloween LUT #29\0 Gothic Halloween LUT #3\0 Gothic Halloween LUT #30\0 Gothic Halloween LUT #31\0 Gothic Halloween LUT #32\0 Gothic Halloween LUT #33\0 Gothic Halloween LUT #34\0 Gothic Halloween LUT #35\0 Gothic Halloween LUT #36\0 Gothic Halloween LUT #37\0 Gothic Halloween LUT #38\0 Gothic Halloween LUT #39\0 Gothic Halloween LUT #4\0 Gothic Halloween LUT #40\0 Gothic Halloween LUT #41\0 Gothic Halloween LUT #42\0 Gothic Halloween LUT #43\0 Gothic Halloween LUT #44\0 Gothic Halloween LUT #45\0 Gothic Halloween LUT #46\0 Gothic Halloween LUT #47\0 Gothic Halloween LUT #48\0 Gothic Halloween LUT #49\0 Gothic Halloween LUT #5\0 Gothic Halloween LUT #50\0 Gothic Halloween LUT #6\0 Gothic Halloween LUT #7\0 Gothic Halloween LUT #8\0 Gothic Halloween LUT #9\0"
+#define fLUT_TextureName "Gothic Halloween MLUT.png"
+#define fLUT_TileSizeXY 25
+#define fLUT_TileAmount 25
+#define fLUT_LutAmount 50
+#include "_BaseLUT.fxh"

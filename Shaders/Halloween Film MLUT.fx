@@ -1,0 +1,7 @@
+#define fLUT_Name Halloween_Film_MLUT
+#define fLUT_LutList " Halloween Film LUT #1\0 Halloween Film LUT #10\0 Halloween Film LUT #11\0 Halloween Film LUT #12\0 Halloween Film LUT #13\0 Halloween Film LUT #14\0 Halloween Film LUT #15\0 Halloween Film LUT #16\0 Halloween Film LUT #17\0 Halloween Film LUT #18\0 Halloween Film LUT #19\0 Halloween Film LUT #2\0 Halloween Film LUT #20\0 Halloween Film LUT #21\0 Halloween Film LUT #22\0 Halloween Film LUT #23\0 Halloween Film LUT #24\0 Halloween Film LUT #25\0 Halloween Film LUT #26\0 Halloween Film LUT #27\0 Halloween Film LUT #28\0 Halloween Film LUT #29\0 Halloween Film LUT #3\0 Halloween Film LUT #30\0 Halloween Film LUT #31\0 Halloween Film LUT #32\0 Halloween Film LUT #33\0 Halloween Film LUT #34\0 Halloween Film LUT #35\0 Halloween Film LUT #36\0 Halloween Film LUT #37\0 Halloween Film LUT #38\0 Halloween Film LUT #39\0 Halloween Film LUT #4\0 Halloween Film LUT #40\0 Halloween Film LUT #41\0 Halloween Film LUT #42\0 Halloween Film LUT #43\0 Halloween Film LUT #44\0 Halloween Film LUT #45\0 Halloween Film LUT #46\0 Halloween Film LUT #47\0 Halloween Film LUT #48\0 Halloween Film LUT #49\0 Halloween Film LUT #5\0 Halloween Film LUT #50\0 Halloween Film LUT #6\0 Halloween Film LUT #7\0 Halloween Film LUT #8\0 Halloween Film LUT #9\0"
+#define fLUT_TextureName "Halloween Film MLUT.png"
+#define fLUT_TileSizeXY 25
+#define fLUT_TileAmount 25
+#define fLUT_LutAmount 50
+#include "_BaseLUT.fxh"

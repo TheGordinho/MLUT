@@ -1,0 +1,7 @@
+#define fLUT_Name Halloween_Magic_MLUT
+#define fLUT_LutList " Halloween Magic LUT #1\0 Halloween Magic LUT #10\0 Halloween Magic LUT #11\0 Halloween Magic LUT #12\0 Halloween Magic LUT #13\0 Halloween Magic LUT #14\0 Halloween Magic LUT #15\0 Halloween Magic LUT #16\0 Halloween Magic LUT #17\0 Halloween Magic LUT #18\0 Halloween Magic LUT #19\0 Halloween Magic LUT #2\0 Halloween Magic LUT #20\0 Halloween Magic LUT #21\0 Halloween Magic LUT #22\0 Halloween Magic LUT #23\0 Halloween Magic LUT #24\0 Halloween Magic LUT #25\0 Halloween Magic LUT #26\0 Halloween Magic LUT #27\0 Halloween Magic LUT #28\0 Halloween Magic LUT #29\0 Halloween Magic LUT #3\0 Halloween Magic LUT #30\0 Halloween Magic LUT #31\0 Halloween Magic LUT #32\0 Halloween Magic LUT #33\0 Halloween Magic LUT #34\0 Halloween Magic LUT #35\0 Halloween Magic LUT #36\0 Halloween Magic LUT #37\0 Halloween Magic LUT #38\0 Halloween Magic LUT #39\0 Halloween Magic LUT #4\0 Halloween Magic LUT #40\0 Halloween Magic LUT #41\0 Halloween Magic LUT #42\0 Halloween Magic LUT #43\0 Halloween Magic LUT #44\0 Halloween Magic LUT #45\0 Halloween Magic LUT #46\0 Halloween Magic LUT #47\0 Halloween Magic LUT #48\0 Halloween Magic LUT #49\0 Halloween Magic LUT #5\0 Halloween Magic LUT #50\0 Halloween Magic LUT #6\0 Halloween Magic LUT #7\0 Halloween Magic LUT #8\0 Halloween Magic LUT #9\0"
+#define fLUT_TextureName "Halloween Magic MLUT.png"
+#define fLUT_TileSizeXY 25
+#define fLUT_TileAmount 25
+#define fLUT_LutAmount 50
+#include "_BaseLUT.fxh"
