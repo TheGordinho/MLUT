@@ -12,11 +12,11 @@
     </a>
 </h1>
 
-# A repository with thousands of pre defined color presets for ReShade
+# A repository with thousands of predefined color presets for ReShade
 
 ## **What is a LUT?**
 
-LUTs (Color Lookup Table) are baked color presets you can use on any game you can install ReShade to.
+LUTs (Color Lookup Table) are baked color presets you can use in any game you can install ReShade to.
 
 ## **What do I need to get it working?**
 
@@ -40,7 +40,7 @@ https://user-images.githubusercontent.com/23023051/118344702-16177780-b506-11eb-
 
 You can mix and match as many luts as you want, but be aware that you will start to see heavy color banding with 2 or more LUTs active at the same time.
 
-> Change the load order of the shader so you get diferent results.
+> Change the load order of the shader so you get different results.
 
 https://user-images.githubusercontent.com/23023051/118404928-719f4d80-b64b-11eb-964d-09fa9b60fe8b.mp4
 
@@ -59,6 +59,8 @@ Thanks to Fraulk ([twitter](https://twitter.com/freaksboi) [github](https://gith
 
 ## Acknowledgements
 
-HUGE thanks to the [ReShade Discord Community](https://discord.gg/PrwndfH) for all the help and support, whitout you guys this wouldn't ever be possible.
+Thanks to the [ReShade Discord Community](https://discord.gg/PrwndfH) for all the help and support, without you guys this wouldn't ever be possible.
+
+HUGE Thanks to [Etra0](https://github.com/etra0) for custom tools to assist on automating everything.
 
 And thanks to the Framed community for all the kind words and feedback, check out their amazing shots on the [Hall of Framed](https://framedsc.github.io/HallOfFramed/).
