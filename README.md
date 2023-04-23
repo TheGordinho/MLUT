@@ -61,6 +61,6 @@ Thanks to Fraulk ([twitter](https://twitter.com/freaksboi) [github](https://gith
 
 Thanks to the [ReShade Discord Community](https://discord.gg/PrwndfH) for all the help and support, without you guys this wouldn't ever be possible.
 
-HUGE Thanks to [Etra0](https://github.com/etra0) for custom tools to assist on automating everything.
+HUGE Thanks to [Etra0](https://twitter.com/etra0) for custom tools to assist on automating everything.
 
 And thanks to the Framed community for all the kind words and feedback, check out their amazing shots on the [Hall of Framed](https://framedsc.github.io/HallOfFramed/).
