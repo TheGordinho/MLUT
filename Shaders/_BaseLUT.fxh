@@ -45,21 +45,21 @@ namespace fLUT_Name
 
 uniform int fLUT_LutSelector<
     __UNIFORM_COMBO_INT1
-    ui_label = "The LUT to use";
+    ui_label = "Main LUT";
     ui_items = fLUT_LutList;
 > = 0;
 
 uniform float GlobalControl <
     __UNIFORM_SLIDER_FLOAT1
     ui_min = 0.00; ui_max = 1.00;
-    ui_label = "Global Control";
+    ui_label = "LUT intensity";
     ui_tooltip = "Controls how much of the LUT is applied.";
 > = 1.00;
 
 uniform float fLUT_AmountChroma <
     __UNIFORM_SLIDER_FLOAT1
     ui_min = 0.00; ui_max = 1.00;
-    ui_label = "LUT chroma amount";
+    ui_label = "LUT Chroma Amount";
     ui_tooltip = "Intensity of color/chroma change of the LUT.";
 > = 1.00;
 
@@ -82,33 +82,19 @@ uniform float fLUT_FocusDistance <
     ui_tooltip = "Sets the focus distance where LUT is fully applied.";
 > = 0.5;
 
-uniform float fLUT_NearFade <
+uniform float2 fLUT_Fade <
     __UNIFORM_SLIDER_FLOAT1
     ui_min = 0.0; ui_max = 1.0;
-    ui_label = "LUT Near Fade";
-    ui_tooltip = "Distance before the focus where LUT starts to fade in.";
-> = 0.2;
+    ui_label = "LUT Fade";
+    ui_tooltip = "Distance where the LUT starts to fade in.";
+> = float2(0.2, 0.2);
 
-uniform float fLUT_FarFade <
-    __UNIFORM_SLIDER_FLOAT1
-    ui_min = 0.0; ui_max = 1.0;
-    ui_label = "LUT Far Fade";
-    ui_tooltip = "Distance after the focus where LUT fades out.";
-> = 0.2;
-
-uniform float fLUT_NearBlendPower <
+uniform float2 BlendPower <
     __UNIFORM_SLIDER_FLOAT1
     ui_min = 0.01; ui_max = 5.0;
-    ui_label = "LUT Near Blend Power";
-    ui_tooltip = "Controls the sharpness of the near fade edge.";
-> = 1.0;
-
-uniform float fLUT_FarBlendPower <
-    __UNIFORM_SLIDER_FLOAT1
-    ui_min = 0.01; ui_max = 5.0;
-    ui_label = "LUT Far Blend Power";
-    ui_tooltip = "Controls the sharpness of the far fade edge.";
-> = 1.0;
+    ui_label = "LUT Blend Power";
+    ui_tooltip = "Controls the sharpness of the edges.";
+> = float2(1, 1);
 
 texture MultiLutTex <source = fLUT_TextureName;>
 {
@@ -157,14 +143,14 @@ float4 MainPS(float4 pos : SV_POSITION, float2 uv : TEXCOORD) : SV_TARGET
 
     if (bLUT_UseDepth)
     {
-        float nearStart = saturate(fLUT_FocusDistance - fLUT_NearFade);
-        float farEnd    = saturate(fLUT_FocusDistance + fLUT_FarFade);
+        float nearStart = saturate(fLUT_FocusDistance - fLUT_Fade.x);
+        float farEnd    = saturate(fLUT_FocusDistance + fLUT_Fade.y);
 
         float blendNear = smoothstep(nearStart, fLUT_FocusDistance, depth);
         float blendFar  = 1.0 - smoothstep(fLUT_FocusDistance, farEnd, depth);
 
-        blendNear = pow(blendNear, fLUT_NearBlendPower);
-        blendFar = pow(blendFar, fLUT_FarBlendPower);
+        blendNear = pow(blendNear, BlendPower.x);
+        blendFar = pow(blendFar, BlendPower.y);
 
         float blendDepth = saturate(blendNear * blendFar);
 
