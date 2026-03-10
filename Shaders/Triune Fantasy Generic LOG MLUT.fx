@@ -1,0 +1,7 @@
+#define fLUT_Name Triune_Fantasy_Generic_LOG_MLUT
+#define fLUT_LutList " 300 - LOG\0 A Monster Calls - LOG\0 Alice in Wonderland - LOG\0 Beauty and the Beast - LOG\0 Big Fish - LOG\0 Bridge to Terabithia - LOG\0 Charlie and the Chocolate Factory - LOG\0 Clash of the Titans - LOG\0 Conan the Barbarian - LOG\0 Excalibur - LOG\0 Game of Thrones (Castle Black) - LOG\0 Game of Thrones (Dothraki) - LOG\0 Game of Thrones (Dragon Stone) - LOG\0 Game of Thrones (Kings Landing) - LOG\0 Harry Potter - LOG\0 Highlander - LOG\0 Jumanji - LOG\0 Labyrinth - LOG\0 Ladyhawke - LOG\0 Life of Pi - LOG\0 Mary Poppins - LOG\0 Mr Magoriums Wonder Emporium - LOG\0 Pan's Labyrinth - LOG\0 Peter Pan - LOG\0 Pirates of the Caribbean - LOG\0 Sleepy Hollow - LOG\0 Solomon Kane - LOG\0 Stardust - LOG\0 Tale of Tales - LOG\0 The Chronicles of Narnia - LOG\0 The City of Lost Children - LOG\0 The Dark Crystal - LOG\0 The Hobbit - LOG\0 The Imaginarium of Doctor Parnassus - LOG\0 The Lord of the Rings - LOG\0 The Neverending Story - LOG\0 The Princess Bride - LOG\0 The Spiderwick Chronicles - LOG\0 The Witches of Eastwick - LOG\0 The Wizard of Oz - LOG\0 Time Bandits - LOG\0 Where the Wild Things Are - LOG\0 Willow - LOG\0 Willy Wonka - LOG\0 Zathura - LOG\0"
+#define fLUT_TextureName "Triune Fantasy Generic LOG MLUT.png"
+#define fLUT_TileSizeXY 33
+#define fLUT_TileAmount 33
+#define fLUT_LutAmount 45
+#include "_BaseLUT.fxh"

@@ -1,0 +1,7 @@
+#define fLUT_Name Triune_Fantasy_Canon_C_Log_MLUT
+#define fLUT_LutList " 300 - C-Log\0 A Monster Calls - C-Log\0 Alice in Wonderland - C-Log\0 Beauty and the Beast - C-Log\0 Big Fish - C-Log\0 Bridge to Terabithia - C-Log\0 Charlie and the Chocolate Factory - C-Log\0 Clash of the Titans - C-Log\0 Conan the Barbarian - C-Log\0 Excalibur - C-Log\0 Game of Thrones (Castle Black) - C-Log\0 Game of Thrones (Dothraki) - C-Log\0 Game of Thrones (Dragon Stone) - C-Log\0 Game of Thrones (Kings Landing) - C-Log\0 Harry Potter - C-Log\0 Highlander - C-Log\0 Jumanji - C-Log\0 Labyrinth - C-Log\0 Ladyhawke - C-Log\0 Life of Pi - C-Log\0 Mary Poppins - C-Log\0 Mr Magoriums Wonder Emporium - C-Log\0 Pan's Labyrinth - C-Log\0 Peter Pan - C-Log\0 Pirates of the Caribbean - C-Log\0 Sleepy Hollow - C-Log\0 Solomon Kane - C-Log\0 Stardust - C-Log\0 Tale of Tales - C-Log\0 The Chronicles of Narnia - C-Log\0 The City of Lost Children - C-Log\0 The Dark Crystal - C-Log\0 The Hobbit - C-Log\0 The Imaginarium of Doctor Parnassus - C-Log\0 The Lord of the Rings - C-Log\0 The Neverending Story - C-Log\0 The Princess Bride - C-Log\0 The Spiderwick Chronicles - C-Log\0 The Witches of Eastwick - C-Log\0 The Wizard of Oz - C-Log\0 Time Bandits - C-Log\0 Where the Wild Things Are - C-Log\0 Willow - C-Log\0 Willy Wonka - C-Log\0 Zathura - C-Log\0"
+#define fLUT_TextureName "Triune Fantasy Canon C Log MLUT.png"
+#define fLUT_TileSizeXY 33
+#define fLUT_TileAmount 33
+#define fLUT_LutAmount 45
+#include "_BaseLUT.fxh"

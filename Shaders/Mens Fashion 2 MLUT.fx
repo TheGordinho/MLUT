@@ -1,0 +1,7 @@
+#define fLUT_Name Mens_Fashion_2_MLUT
+#define fLUT_LutList " Men’s Fashion LUT #1\0 Men’s Fashion LUT #10\0 Men’s Fashion LUT #11\0 Men’s Fashion LUT #12\0 Men’s Fashion LUT #13\0 Men’s Fashion LUT #14\0 Men’s Fashion LUT #15\0 Men’s Fashion LUT #16\0 Men’s Fashion LUT #17\0 Men’s Fashion LUT #18\0 Men’s Fashion LUT #19\0 Men’s Fashion LUT #2\0 Men’s Fashion LUT #20\0 Men’s Fashion LUT #21\0 Men’s Fashion LUT #22\0 Men’s Fashion LUT #23\0 Men’s Fashion LUT #24\0 Men’s Fashion LUT #25\0 Men’s Fashion LUT #26\0 Men’s Fashion LUT #27\0 Men’s Fashion LUT #28\0 Men’s Fashion LUT #29\0 Men’s Fashion LUT #3\0 Men’s Fashion LUT #30\0 Men’s Fashion LUT #31\0 Men’s Fashion LUT #32\0 Men’s Fashion LUT #33\0 Men’s Fashion LUT #34\0 Men’s Fashion LUT #35\0 Men’s Fashion LUT #36\0 Men’s Fashion LUT #37\0 Men’s Fashion LUT #38\0 Men’s Fashion LUT #39\0 Men’s Fashion LUT #4\0 Men’s Fashion LUT #40\0 Men’s Fashion LUT #41\0 Men’s Fashion LUT #42\0 Men’s Fashion LUT #43\0 Men’s Fashion LUT #44\0 Men’s Fashion LUT #45\0 Men’s Fashion LUT #46\0 Men’s Fashion LUT #47\0 Men’s Fashion LUT #48\0 Men’s Fashion LUT #49\0 Men’s Fashion LUT #5\0 Men’s Fashion LUT #50\0 Men’s Fashion LUT #6\0 Men’s Fashion LUT #7\0 Men’s Fashion LUT #8\0 Men’s Fashion LUT #9\0"
+#define fLUT_TextureName "Mens Fashion 2 MLUT.png"
+#define fLUT_TileSizeXY 25
+#define fLUT_TileAmount 25
+#define fLUT_LutAmount 50
+#include "_BaseLUT.fxh"

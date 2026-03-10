@@ -1,0 +1,7 @@
+#define fLUT_Name Triune_Fantasy_Sony_S_Log3_MLUT
+#define fLUT_LutList " 300 - S-Log3\0 A Monster Calls - S-Log3\0 Alice in Wonderland - S-Log3\0 Beauty and the Beast - S-Log3\0 Big Fish - S-Log3\0 Bridge to Terabithia - S-Log3\0 Charlie and the Chocolate Factory - S-Log3\0 Clash of the Titans - S-Log3\0 Conan the Barbarian - S-Log3\0 Excalibur - S-Log3\0 Game of Thrones (Castle Black) - S-Log3\0 Game of Thrones (Dothraki) - S-Log3\0 Game of Thrones (Dragon Stone) - S-Log3\0 Game of Thrones (Kings Landing) - S-Log3\0 Harry Potter - S-Log3\0 Highlander - S-Log3\0 Jumanji - S-Log3\0 Labyrinth - S-Log3\0 Ladyhawke - S-Log3\0 Life of Pi - S-Log3\0 Mary Poppins - S-Log3\0 Mr Magoriums Wonder Emporium - S-Log3\0 Pan's Labyrinth - S-Log3\0 Peter Pan - S-Log3\0 Pirates of the Caribbean - S-Log3\0 Sleepy Hollow - S-Log3\0 Solomon Kane - S-Log3\0 Stardust - S-Log3\0 Tale of Tales - S-Log3\0 The Chronicles of Narnia - S-Log3\0 The City of Lost Children - S-Log3\0 The Dark Crystal - S-Log3\0 The Hobbit - S-Log3\0 The Imaginarium of Doctor Parnassus - S-Log3\0 The Lord of the Rings - S-Log3\0 The Neverending Story - S-Log3\0 The Princess Bride - S-Log3\0 The Spiderwick Chronicles - S-Log3\0 The Witches of Eastwick - S-Log3\0 The Wizard of Oz - S-Log3\0 Time Bandits - S-Log3\0 Where the Wild Things Are - S-Log3\0 Willow - S-Log3\0 Willy Wonka - S-Log3\0 Zathura - S-Log3\0"
+#define fLUT_TextureName "Triune Fantasy Sony S Log3 MLUT.png"
+#define fLUT_TileSizeXY 33
+#define fLUT_TileAmount 33
+#define fLUT_LutAmount 45
+#include "_BaseLUT.fxh"

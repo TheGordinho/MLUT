@@ -1,0 +1,7 @@
+#define fLUT_Name Triune_Fantasy_Arri_Alexa_Log_C_MLUT
+#define fLUT_LutList " 300 - Log-C\0 A Monster Calls - Log-C\0 Alice in Wonderland - Log-C\0 Beauty and the Beast - Log-C\0 Big Fish - Log-C\0 Bridge to Terabithia - Log-C\0 Charlie and the Chocolate Factory - Log-C\0 Clash of the Titans - Log-C\0 Conan the Barbarian - Log-C\0 Excalibur - Log-C\0 Game of Thrones (Castle Black) - Log-C\0 Game of Thrones (Dothraki) - Log-C\0 Game of Thrones (Dragon Stone) - Log-C\0 Game of Thrones (Kings Landing) - Log-C\0 Harry Potter - Log-C\0 Highlander - Log-C\0 Jumanji - Log-C\0 Labyrinth - Log-C\0 Ladyhawke - Log-C\0 Life of Pi - Log-C\0 Mary Poppins - Log-C\0 Mr Magoriums Wonder Emporium - Log-C\0 Pan's Labyrinth - Log-C\0 Peter Pan - Log-C\0 Pirates of the Caribbean - Log-C\0 Sleepy Hollow - Log-C\0 Solomon Kane - Log-C\0 Stardust - Log-C\0 Tale of Tales - Log-C\0 The Chronicles of Narnia - Log-C\0 The City of Lost Children - Log-C\0 The Dark Crystal - Log-C\0 The Hobbit - Log-C\0 The Imaginarium of Doctor Parnassus - Log-C\0 The Lord of the Rings - Log-C\0 The Neverending Story - Log-C\0 The Princess Bride - Log-C\0 The Spiderwick Chronicles - Log-C\0 The Witches of Eastwick - Log-C\0 The Wizard of Oz - Log-C\0 Time Bandits - Log-C\0 Where the Wild Things Are - Log-C\0 Willow - Log-C\0 Willy Wonka - Log-C\0 Zathura - Log-C\0"
+#define fLUT_TextureName "Triune Fantasy Arri Alexa Log C MLUT.png"
+#define fLUT_TileSizeXY 33
+#define fLUT_TileAmount 33
+#define fLUT_LutAmount 45
+#include "_BaseLUT.fxh"

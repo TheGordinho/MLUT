@@ -1,0 +1,7 @@
+#define fLUT_Name Wedding_Pack_MLUT
+#define fLUT_LutList " Wedding 1 Vol.1\0 Wedding 1 Vol.10\0 Wedding 1 Vol.11\0 Wedding 1 Vol.12\0 Wedding 1 Vol.13\0 Wedding 1 Vol.14\0 Wedding 1 Vol.2\0 Wedding 1 Vol.3\0 Wedding 1 Vol.4\0 Wedding 1 Vol.5\0 Wedding 1 Vol.6\0 Wedding 1 Vol.7\0 Wedding 1 Vol.8\0 Wedding 1 Vol.9\0 Wedding 2 Vol.1\0 Wedding 2 Vol.10\0 Wedding 2 Vol.11\0 Wedding 2 Vol.12\0 Wedding 2 Vol.13\0 Wedding 2 Vol.14\0 Wedding 2 Vol.2\0 Wedding 2 Vol.3\0 Wedding 2 Vol.4\0 Wedding 2 Vol.5\0 Wedding 2 Vol.6\0 Wedding 2 Vol.7\0 Wedding 2 Vol.8\0 Wedding 2 Vol.9\0 Wedding 3 Vol.1\0 Wedding 3 Vol.10\0 Wedding 3 Vol.11\0 Wedding 3 Vol.12\0 Wedding 3 Vol.13\0 Wedding 3 Vol.14\0 Wedding 3 Vol.2\0 Wedding 3 Vol.3\0 Wedding 3 Vol.4\0 Wedding 3 Vol.5\0 Wedding 3 Vol.6\0 Wedding 3 Vol.7\0 Wedding 3 Vol.8\0 Wedding 3 Vol.9\0 Wedding 4 Vol.1\0 Wedding 4 Vol.10\0 Wedding 4 Vol.11\0 Wedding 4 Vol.12\0 Wedding 4 Vol.13\0 Wedding 4 Vol.14\0 Wedding 4 Vol.2\0 Wedding 4 Vol.3\0 Wedding 4 Vol.4\0 Wedding 4 Vol.5\0 Wedding 4 Vol.6\0 Wedding 4 Vol.7\0 Wedding 4 Vol.8\0 Wedding 4 Vol.9\0 Wedding 5 Vol.1\0 Wedding 5 Vol.10\0 Wedding 5 Vol.11\0 Wedding 5 Vol.12\0 Wedding 5 Vol.13\0 Wedding 5 Vol.14\0 Wedding 5 Vol.2\0 Wedding 5 Vol.3\0 Wedding 5 Vol.4\0 Wedding 5 Vol.5\0 Wedding 5 Vol.6\0 Wedding 5 Vol.7\0 Wedding 5 Vol.8\0 Wedding 5 Vol.9\0"
+#define fLUT_TextureName "Wedding Pack MLUT.png"
+#define fLUT_TileSizeXY 64
+#define fLUT_TileAmount 64
+#define fLUT_LutAmount 70
+#include "_BaseLUT.fxh"
